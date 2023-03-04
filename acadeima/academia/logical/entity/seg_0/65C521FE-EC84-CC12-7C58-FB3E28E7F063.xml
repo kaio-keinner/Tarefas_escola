@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="65C521FE-EC84-CC12-7C58-FB3E28E7F063" name="fornecedor">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-04 00:37:12 UTC</createdTime>
+<ownerDesignName>academia</ownerDesignName>
+<engineerTo>
+<item key="40417FE2-F072-AB07-1C53-18453FB4721E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CNPJ" id="F7879C73-EE4F-42D8-58E7-4686DB8AA0BE">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-04 01:07:51 UTC</createdTime>
+<ownerDesignName>academia</ownerDesignName>
+<engineerTo>
+<item key="40417FE2-F072-AB07-1C53-18453FB4721E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOME" id="A5548F6B-FBB9-CA9E-7F1B-9288187E0E1D">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-04 01:08:30 UTC</createdTime>
+<ownerDesignName>academia</ownerDesignName>
+<engineerTo>
+<item key="40417FE2-F072-AB07-1C53-18453FB4721E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ENDEREÇO" id="D3DC9BB8-980A-3531-D195-F208A3E1865D">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-04 01:09:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tratase de um Campo multi valoravel
+
+]]></commentInRDBMS>
+<ownerDesignName>academia</ownerDesignName>
+<engineerTo>
+<item key="40417FE2-F072-AB07-1C53-18453FB4721E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TELEFONE*" id="4DC4E695-AD17-CE93-D19C-A8EBBA684AD3">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-04 01:10:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tratase de um campo composto
+
+				]]></commentInRDBMS>
+<ownerDesignName>academia</ownerDesignName>
+<engineerTo>
+<item key="40417FE2-F072-AB07-1C53-18453FB4721E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
