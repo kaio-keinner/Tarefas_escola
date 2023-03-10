@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="26955B3E-6BE6-8F68-C19C-F0E85B3ADEA1" mainViewID="E3874846-677A-511D-144C-DA3C882791C7">
-<createdBy>Geral</createdBy>
-<createdTime>2023-03-04 00:13:01 UTC</createdTime>
-<ownerDesignName>new modol</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</LogicalDesign>

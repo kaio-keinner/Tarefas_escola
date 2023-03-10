@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="new modol" id="80168CA2-A263-B1FF-608F-97537AC0DBF1" version="3.5">
-<createdBy>Geral</createdBy>
-<createdTime>2023-03-04 00:13:01 UTC</createdTime>
-<ownerDesignName>new modol</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>80168CA2-A263-B1FF-608F-97537AC0DBF1</designId>
-</OSDM_Design>
