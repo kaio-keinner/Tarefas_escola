@@ -29,6 +29,9 @@ public class Exemplo_2 extends javax.swing.JFrame {
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
         jMenu2 = new javax.swing.JMenu();
+        jMenu3 = new javax.swing.JMenuItem();
+        jMenuEx4 = new javax.swing.JMenuItem();
+        jMenu5 = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -38,6 +41,35 @@ public class Exemplo_2 extends javax.swing.JFrame {
 
         jMenu2.setText("Exemplos");
         jMenu2.setToolTipText("e");
+
+        jMenu3.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_3, java.awt.event.InputEvent.CTRL_DOWN_MASK));
+        jMenu3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagens/botao.png"))); // NOI18N
+        jMenu3.setText("Exemplo.3");
+        jMenu3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenu3ActionPerformed(evt);
+            }
+        });
+        jMenu2.add(jMenu3);
+
+        jMenuEx4.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_4, java.awt.event.InputEvent.CTRL_DOWN_MASK));
+        jMenuEx4.setText("Exemplo.4");
+        jMenuEx4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuEx4ActionPerformed(evt);
+            }
+        });
+        jMenu2.add(jMenuEx4);
+
+        jMenu5.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_5, java.awt.event.InputEvent.CTRL_DOWN_MASK));
+        jMenu5.setText("Exemplo.5");
+        jMenu5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenu5ActionPerformed(evt);
+            }
+        });
+        jMenu2.add(jMenu5);
+
         jMenuBar1.add(jMenu2);
 
         setJMenuBar(jMenuBar1);
@@ -56,6 +88,21 @@ public class Exemplo_2 extends javax.swing.JFrame {
         pack();
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jMenu3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenu3ActionPerformed
+        Exemplo_3 exemplo3 = new Exemplo_3();
+        exemplo3.setVisible(true);
+    }//GEN-LAST:event_jMenu3ActionPerformed
+
+    private void jMenuEx4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuEx4ActionPerformed
+        Exemplo_4 exemplo4 = new Exemplo_4();
+        exemplo4.setVisible(true);
+    }//GEN-LAST:event_jMenuEx4ActionPerformed
+
+    private void jMenu5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenu5ActionPerformed
+        Exemplo_5 exemplo5 = new Exemplo_5();
+        exemplo5.setVisible(true);
+    }//GEN-LAST:event_jMenu5ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -95,6 +142,9 @@ public class Exemplo_2 extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;
+    private javax.swing.JMenuItem jMenu3;
+    private javax.swing.JMenuItem jMenu5;
     private javax.swing.JMenuBar jMenuBar1;
+    private javax.swing.JMenuItem jMenuEx4;
     // End of variables declaration//GEN-END:variables
 }

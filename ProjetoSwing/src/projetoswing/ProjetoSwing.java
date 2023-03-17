@@ -41,7 +41,11 @@ public class ProjetoSwing extends javax.swing.JFrame {
 
         jLabel2.setText("Senha");
 
-        jTextSenha.setText("jPasswordField1");
+        jTextLogin.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextLoginActionPerformed(evt);
+            }
+        });
 
         jTxtLoga.setText("Loga");
         jTxtLoga.addActionListener(new java.awt.event.ActionListener() {
@@ -117,6 +121,10 @@ public class ProjetoSwing extends javax.swing.JFrame {
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jTextLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextLoginActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextLoginActionPerformed
 
     /**
      * @param args the command line arguments
