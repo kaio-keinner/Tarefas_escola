@@ -41,6 +41,12 @@ public class ProjetoSwing extends javax.swing.JFrame {
 
         jLabel2.setText("Senha");
 
+        jTextSenha.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextSenhaActionPerformed(evt);
+            }
+        });
+
         jTextLogin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextLoginActionPerformed(evt);
@@ -107,6 +113,7 @@ public class ProjetoSwing extends javax.swing.JFrame {
     private void jTxtLogaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTxtLogaActionPerformed
        
         String senha = String.valueOf(jTextSenha.getText());
+        
        if(jTextLogin.getText().equals("java8")&& senha.equals("java8")){
            Exemplo_2 telaprincipal = new Exemplo_2();
            telaprincipal.setVisible(true);
@@ -125,6 +132,10 @@ public class ProjetoSwing extends javax.swing.JFrame {
     private void jTextLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextLoginActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextLoginActionPerformed
+
+    private void jTextSenhaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextSenhaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextSenhaActionPerformed
 
     /**
      * @param args the command line arguments
