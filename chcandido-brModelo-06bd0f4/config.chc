@@ -1,16 +1,16 @@
 #Config
-#Fri Mar 17 21:50:03 AMT 2023
+#Fri Mar 24 20:15:38 AMT 2023
 cfg.ancorador=true
 cfg.autosalvarintervalo=5
 cfg.mostrargrade=true
 cfg.apagartextoaoeditar=true
-cfg.location.y=-8
-cfg.location.x=-8
+cfg.location.y=-9
+cfg.location.x=-9
 cfg.mostrardimensoesaomover=true
 cfg.gradelargura=23
 cfg.mostrartooltips=true
 cfg.tipodefault=0
 cfg.mostrarids=false
-cfg.recentes=C\:\\Users\\Geral\\Downloads\\chcandido-brModelo-06bd0f4\\Conceitual_1.brM3;C\:\\Users\\Geral\\Downloads\\chcandido-brModelo-06bd0f4\\L\u00F3gico_1.brM3;C\:\\Users\\Geral\\Downloads\\chcandido-brModelo-06bd0f4\\build.xml;C\:\\Users\\Geral\\Desktop\\modelo\\logical\\Logical.xml;C\:\\Users\\Geral\\Desktop\\modelo\\dl_settings.xml
+cfg.recentes=C\:\\Users\\Geral\\Documents\\tarefas 3\u00B0 semestre TADS\\acadeima\\academia\\logical\\entity\\seg_0\\65C521FE-EC84-CC12-7C58-FB3E28E7F063.xml;C\:\\Users\\Geral\\Documents\\tarefas 3\u00B0 semestre TADS\\acadeima\\academia\\logical\\Logical.xml;C\:\\Users\\Geral\\Documents\\tarefas 3\u00B0 semestre TADS\\acadeima\\academia\\dl_settings.xml;C\:\\Users\\Geral\\Documents\\tarefas 3\u00B0 semestre TADS\\chcandido-brModelo-06bd0f4\\Conceitual_1.brM3;C\:\\Users\\Geral\\Documents\\tarefas 3\u00B0 semestre TADS\\chcandido-brModelo-06bd0f4\\build.xml;C\:\\Users\\Geral\\Desktop\\modelo\\logical\\entity\\seg_0\\65C521FE-EC84-CC12-7C58-FB3E28E7F063.xml;C\:\\Users\\Geral\\Desktop\\modelo\\logical\\Logical.xml;C\:\\Users\\Geral\\Downloads\\chcandido-brModelo-06bd0f4\\Conceitual_1.brM3;C\:\\Users\\Geral\\Downloads\\chcandido-brModelo-06bd0f4\\L\u00F3gico_1.brM3;C\:\\Users\\Geral\\Downloads\\chcandido-brModelo-06bd0f4\\build.xml;C\:\\Users\\Geral\\Desktop\\modelo\\dl_settings.xml
 cfg.location.salvar=true
 cfg.propaguedeletetolines=true
